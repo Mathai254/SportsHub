@@ -1,0 +1,99 @@
+body {
+    background-color: lightgreen;
+    width: 95%;
+    margin: auto;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.searchbutton{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.loginbutton{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.registerbutton{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#motto{
+    float: right;
+    font-size: 18px;
+}
+.searchfield{
+    border-radius: 5px;
+    background: white;
+
+    width: 500px;
+    height: 36px;
+    font-size: 16px;
+    color:black;
+}
+.container{
+
+    margin-left: 20px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;   
+}
+li{
+    display: inline;
+    float: left;
+    font-size: 18px;
+}
+li a:hover {
+    background-color: #111;
+}

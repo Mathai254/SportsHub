@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sportshub Register</title>
+	<script language="javascript">
+
+	function checkMe()
+	{
+	  if (document.myForm.password1.value == document.myForm.password2.value)
+	  {
+	    document.myForm.submit();
+	  }
+	  else
+	    alert("Passwords do not match!");
+		return false;
+	}
+
+	</script>
+</head>
+<body>	
+	<form action="registration.php" method="post" name="myForm" onsubmit="return checkMe()">
+		<fieldset>
+			<legend>Contact details</legend>
+			<label>Your name:</label><br>
+			<input type="text" name="name" maxlength="20" size="15"><br>
+			<label>Email:</label><br>
+			<input type="email" name="email"><br>
+			<label>Password</label><br>
+			<input type="password" name="password1"><br>
+			<label>Password again</label><br>
+			<input type="password" name="password2"><br>
+			<button>Submit</button>
+			<button type="reset">Reset</button>
+		</fieldset>
+	</form>
+</body>
+</html>
